@@ -10,11 +10,11 @@ An online retailer doubled his SKU count in 2019 and wants to understand:
 ## 2. Information about data 
 | File                   | Rows   | Grain                   | Key Variables                                         |
 |------------------------|--------|-------------------------|-------------------------------------------------------|
-| `Online_Sales.csv`     | 52 000 | Line‑item transactions  | `transaction_date`, `avg_price`, `delivery_charges`   |
-| `CustomersData.xlsx`   | 10 000 | Customer master         | `customerid`, `demographics`                          |   
+| `Online_Sales.csv`     | 52,924 | Line‑item transactions  | `transaction_date`, `avg_price`, `delivery_charges`   |
+| `CustomersData.xlsx`   | 1468   | Customer master         | `customerid`, `demographics`                          |   
 | `Marketing_Spend.csv`  | 365    | Monthly budget          | `online_spend`, `offline_spend`                       |
 | `Discount_Coupon.csv`  | 204    | Campaign plan           | `month`, `product_category`, `discount_pct`           |
-| `Tax_Amount.xlsx`      | 52 000 | Tax schedule            | `product_category`, `gst`                             |
+| `Tax_Amount.xlsx`      | 20     | Tax schedule            | `product_category`, `gst`                             |
 
 ## 3. EDA & Analytical Logic
 1. **Data hygiene** – Type & null scans; unified column names.  
