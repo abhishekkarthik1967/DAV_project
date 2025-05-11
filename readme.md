@@ -12,7 +12,6 @@ Acme E‑commerce is on a mission to use data-driven insights to fuel sustaina
 | `Marketing_Spend.csv`  | 365    | Monthly budget          | `online_spend`, `offline_spend`                       |
 | `Discount_Coupon.csv`  | 204    | Campaign plan           | `month`, `product_category`, `discount_pct`           |
 | `Tax_Amount.xlsx`      | 20     | Tax schedule            | `product_category`, `gst`                             |
-                                             |
 
 ## 3. Business Questions
 
